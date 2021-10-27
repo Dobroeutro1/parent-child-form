@@ -1,5 +1,5 @@
-import { PreviewStorage } from '../components/preview'
 import { IAction } from '../interfaces'
+import { PreviewStorage } from "../../components/preview/interfaces"
 
 const initialState: PreviewStorage = {
   parent: { name: '', age: null },

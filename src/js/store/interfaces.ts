@@ -1,17 +1,11 @@
-import { Action, Dispatch } from 'redux'
-import { FormStorage } from './components/form'
-import { PreviewStorage } from './components/preview'
+import { Action, Dispatch } from "redux"
+import { FormStorage } from "../components/form/interfaces"
+import { PreviewStorage } from "../components/preview/interfaces"
 
 export interface Storage {
   form: FormStorage
   preview: PreviewStorage
 }
-
-export interface PeopleData {
-  name: string;
-  age: number | string;
-}
-
 
 export interface IAction {
   type: string

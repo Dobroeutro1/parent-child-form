@@ -7,7 +7,7 @@ export class Sidebar extends React.PureComponent<{}, never> {
   render(): React.ReactNode {
     return (
       <div className="sidebar">
-        <img src={logo} className="sidebar__logo" />
+        <img src={logo} className="sidebar__logo" alt="logo" />
         <div className="sidebar__sections">
           <SidebarButton pageName="Форма" url={SelectedPage.Form} />
           <SidebarButton pageName="Превью" url={SelectedPage.Preview} />

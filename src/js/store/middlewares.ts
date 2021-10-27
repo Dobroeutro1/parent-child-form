@@ -1,4 +1,4 @@
-import { Action, Middleware } from 'redux'
+import { Middleware, Action } from 'redux'
 
 export const actionFn: Middleware =
   ({ dispatch, getState }) => (next) => (action: Action): Action => {

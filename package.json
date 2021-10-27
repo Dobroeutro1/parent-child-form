@@ -1,52 +1,53 @@
 {
-  "homepage": "https://dobroeutro1.github.io/flats/",
-  "name": "parent-child-form",
-  "version": "0.1.0",
-  "private": true,
+  "homepage": "https://dobroeutro1.github.io/parent-child-form/",
+  "name": "react-redux-ts-template",
+  "version": "1.0.0",
+  "main": "src/js/index.ts",
+  "author": "Artem Noskov <noskov@itpc.ru>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --open --history-api-fallback",
+    "build": "webpack",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
+    "@types/eslint": "^7.28.2",
+    "@types/webpack-dev-server": "^4.3.1",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "eslint": "^8.1.0",
+    "eslint-plugin-react": "^7.26.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-redux": "^7.2.5",
-    "react-router": "^5.2.1",
+    "react-redux": "^7.2.6",
     "react-router-dom": "^5.3.0",
-    "react-scripts": "4.0.3",
     "redux": "^4.1.1",
-    "typescript": "^4.1.2",
-    "web-vitals": "^1.0.1"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "deploy": "gh-pages -d build"
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "eslintConfig": {
-
+    "typescript": "^4.4.4"
   },
   "devDependencies": {
-    "@testing-library/jest-dom": "^5.11.4",
-    "@testing-library/react": "^11.1.0",
-    "@testing-library/user-event": "^12.1.10",
-    "@types/jest": "^26.0.15",
-    "@types/node": "^12.0.0",
-    "@types/react": "^17.0.0",
-    "@types/react-dom": "^17.0.0",
-    "@types/react-redux": "^7.1.19",
-    "@typescript-eslint/eslint-plugin": "~4.16.1",
-    "@typescript-eslint/parser": "~4.16.1",
-    "eslint": "~7.21.0",
-    "eslint-plugin-react": "~7.22.0",
-    "gh-pages": "^3.2.3"
+    "@babel/cli": "^7.15.7",
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "@babel/preset-typescript": "^7.15.0",
+    "@types/node": "^16.11.6",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@types/react-redux": "^7.1.20",
+    "@types/react-router-dom": "^5.3.2",
+    "@types/redux": "^3.6.0",
+    "@types/webpack": "^5.28.0",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.0",
+    "file-loader": "^6.2.0",
+    "gh-pages": "^3.2.3",
+    "html-loader": "^3.0.0",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.3",
+    "style-loader": "^3.3.1",
+    "ts-node": "^10.4.0",
+    "webpack": "^5.60.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
   }
 }

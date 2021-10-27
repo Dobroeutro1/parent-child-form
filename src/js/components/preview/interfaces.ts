@@ -1,11 +1,11 @@
-import { PeopleData } from '../../interfaces'
+import { ParentData, ChildData } from '../interfaces'
 
 export interface PreviewStorage {
-  parent: PeopleData;
-  child: PeopleData[];
+  parent: ParentData;
+  child: ChildData[];
 }
 
 export interface PreviewProps {
-  parent: PeopleData;
-  child: PeopleData[];
+  parent: ParentData;
+  child: ChildData[];
 }
