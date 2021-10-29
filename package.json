@@ -6,8 +6,8 @@
   "author": "Artem Noskov <noskov@itpc.ru>",
   "license": "MIT",
   "scripts": {
-    "dev": "webpack-dev-server --open --history-api-fallback",
-    "build": "webpack",
+    "dev": "webpack-dev-server --open --hot --history-api-fallback",
+    "build": "webpack --mode=production",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {

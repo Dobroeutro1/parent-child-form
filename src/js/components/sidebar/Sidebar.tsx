@@ -9,8 +9,8 @@ export class Sidebar extends React.PureComponent<{}, never> {
       <div className="sidebar">
         <img src={logo} className="sidebar__logo" alt="logo" />
         <div className="sidebar__sections">
-          <SidebarButton pageName="Форма" url={SelectedPage.Form} />
-          <SidebarButton pageName="Превью" url={SelectedPage.Preview} />
+          <SidebarButton pageName="Форма" url={`${SelectedPage.Form}`} />
+          <SidebarButton pageName="Превью" url={`${SelectedPage.Preview}`} />
         </div>
       </div>
     )

@@ -8,7 +8,7 @@ export class Sections extends React.PureComponent<SectionsProps, never> {
   render(): React.ReactNode {
     return (
       <div className="sections">
-        <Redirect from="/" to={`/${SelectedPage.Form}`} />
+        <Redirect from="/" to={SelectedPage.Form} />
         <Switch>
           <Route path={`/${SelectedPage.Form}`} component={containers.FormContainer} />
           <Route path={`/${SelectedPage.Preview}`} component={containers.PreviewContainer}/>

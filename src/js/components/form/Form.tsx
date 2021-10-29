@@ -109,7 +109,7 @@ export class Form extends React.PureComponent<FormProps, FormState> {
         <div className="form__element">
           <div className="form__header">
             <h1 className="form__title form__title_header">Дети (макс. 5)</h1>
-            {this.state.child.length > MAX_CHILD_COUNT ? null : <button className="form__btn" onClick={this.onAddChild}>
+            {this.state.child.length > MAX_CHILD_COUNT ? null : <button type='button' className="form__btn" onClick={this.onAddChild}>
               <img src={btnPlus} alt="plus" className="form__btn-img" />
               <p className="form__btn-text">Добавить ребенка</p>
             </button>}
